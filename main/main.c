@@ -6,6 +6,8 @@
 #include "esp_attr.h"
 #include "esp_intr_alloc.h"
 #include "esp_timer.h"
+#include "esp_rom_sys.h"
+
 
 #define INPUT_PIN GPIO_NUM_4
 #define OUTPUT_PIN GPIO_NUM_2
@@ -37,10 +39,10 @@ void adjust_output_ticks(int64_t tick_interval) {
     int64_t interval_between_ticks = tick_interval / num_ticks;
     for (int i = 0; i < num_ticks; ++i) {
         gpio_set_level(OUTPUT_PIN, 1);
-        ets_delay_us(interval_between_ticks / 2);
+        esp_rom_delay_us(interval_between_ticks / 2);
         gpio_set_level(OUTPUT_PIN, 0);
         if (i < num_ticks - 1) {
-            ets_delay_us(interval_between_ticks / 2);
+            esp_rom_delay_us(interval_between_ticks / 2);
         }
     }
 }

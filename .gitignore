@@ -1,0 +1,43 @@
+# ESP-IDF specific
+build/
+sdkconfig
+sdkconfig.old
+*.o
+*.d
+*.elf
+*.map
+*.bin
+*.a
+*.log
+*.tmp
+
+# Project specific
+*.code-workspace
+.vscode/
+.settings/
+.cproject
+.project
+
+# Python virtual environments
+.python-version
+venv/
+.env/
+pyvenv.cfg
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.temp
+
+# Arduino specific
+*.ino.autosave
+
+# Generated folders by the Arduino IDE
+/.arduino15
+/libraries
+
+# Ignore potential secret keys and configuration files
+secrets.h
+

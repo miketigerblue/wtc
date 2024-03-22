@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "main",
-    "project_version":    "1",
+    "project_version":    "577f06f-dirty",
     "project_path":       "/Users/mharris/esp/sample_project",
     "idf_path":           "/Users/mharris/esp/esp-idf",
     "build_dir":          "/Users/mharris/esp/sample_project/build",
@@ -11,7 +11,7 @@
     "app_elf":            "main.elf",
     "app_bin":            "main.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.2.1",
+    "git_revision":       "v5.2.1-dirty",
     "target":             "esp32s3",
     "rev":                "",
     "min_rev":            "0",
