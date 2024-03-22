@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mharris/esp/sample_project/main
+# Install script for directory: /Users/mharris/esp/wheel_tick_converter/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

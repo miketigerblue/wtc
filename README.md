@@ -1,7 +1,4 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-
-# WTC
+# Wheel Tick Converster for low resolution wheel tick signals
 
 WTC (Wheel Tick Converter) is an innovative solution designed for high-precision speed and distance measurement systems in locomotive applications. Utilising the ESP32 microcontroller, this project bridges real-world wheel tick signals with digital processing, enabling the generation of synthetic wheel ticks compliant with the uBlox ZED-F9R's specifications.
 

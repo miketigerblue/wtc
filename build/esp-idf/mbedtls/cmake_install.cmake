@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mharris/esp/sample_project/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("/Users/mharris/esp/wheel_tick_converter/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 endif()
 

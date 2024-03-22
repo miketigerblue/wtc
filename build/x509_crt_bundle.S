@@ -1,4 +1,4 @@
-/* * Data converted from /Users/mharris/esp/sample_project/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/mharris/esp/wheel_tick_converter/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
