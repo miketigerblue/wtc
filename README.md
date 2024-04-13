@@ -12,7 +12,7 @@ The primary objective of this specification is to provide a clear and effective 
 
 2. System Overview
 
-Components: The system comprises two main components: ESP32 #1 (Wheel Tick Generator) and ESP32 #2 (Wheel Tick Mediator).
+Components: The system comprises two main components: ESP32 #1 (Wheel Tick Generator) and ESP32 #2 (Wheel Tick Convter).
 Functionality: ESP32 #1 simulates real wheel tick signals, while ESP32 #2 processes these signals and generates synthetic wheel ticks to interface directly with the ZED-F9R module.
 
 3. Signal Requirements

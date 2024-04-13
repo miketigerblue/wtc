@@ -11,6 +11,11 @@
 
 #define tag "SSD1306"
 
+// #define OLED_SDA_PIN GPIO_NUM_17
+// #define OLED_SCL_PIN GPIO_NUM_18
+// #define OLED_RESET_PIN GPIO_NUM_21
+
+
 // GPIO Pin Definitions
 #define INPUT_PIN GPIO_NUM_4          // GPIO pin for receiving the real wheel tick signal.
 #define OUTPUT_PIN GPIO_NUM_2         // GPIO pin for outputting synthetic wheel tick signals.
@@ -97,6 +102,10 @@ void app_main(void) {
 
 	SSD1306_t dev;
     int center, top, bottom;
+
+    // Initialize I2C with correct pins
+//i2c_master_init(&dev, OLED_SDA_PIN, OLED_SCL_PIN, OLED_RESET_PIN);
+ssd1306_init(&dev, 128, 64); // Assuming you are using a 128x64 display
 
 #if CONFIG_I2C_INTERFACE
 	ESP_LOGI(tag, "INTERFACE is i2c");
